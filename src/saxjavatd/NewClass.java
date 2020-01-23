@@ -6,6 +6,7 @@
 package saxjavatd;
 
 
+import java.util.*;
 import javax.xml.parsers.SAXParser;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -16,15 +17,22 @@ import org.xml.sax.helpers.DefaultHandler;
  * @author mkone03
  */
 public class NewClass extends DefaultHandler {
-
+    
+    List<String> jours = new ArrayList<>();
+   
     @Override
     public void startElement(String sn, String ln, String qn, Attributes atrbts) throws SAXException {
-        if (atrbts.getQName(0) != null) {
+ 
+        if (jours.contains(qn)) {
             System.out.print("<"+qn);
             for (int i = 0; i < atrbts.getLength(); i++) {
                 System.out.print(atrbts.getQName(i)+" = "+ "'"+ atrbts.getValue(i)+"'");
-            }        
+            }      
         }
+         if (qn.equals("cr")) {
+             
+         }
+        
     }
 
     @Override

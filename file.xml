@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<edt>              
+    <semaine              name="1">                                          
+        <lundi>              
+            <cr> 
+                <cours> Interopérabilité </cours> 
+                <prof> Singer </prof> 
+            </cr> 
+            <cr> 
+                <cours> </cours> 
+                <prof> </prof> 
+            </cr>                                           
+            <cr>                            
+                <cours>              Systèmes              répartis              </cours>  
+                <prof> Hanachi </prof> 
+            </cr>                                           
+            <cr>              
+                <cours>              Anglais              </cours> 
+                <prof> Haro </prof> 
+            </cr>                             
+        </lundi>                
+        <mardi>                                           
+            <cr>                            
+                <cours>              Télésystèmes              </cours> 
+                <prof> Aoun </prof> 
+            </cr>                                           
+            <cr>              
+                <cours>              Systèmes              de              santé</cours>
+                <prof> rigaud</prof>
+            </cr> 
+            <cr> 
+                <cours> </cours> 
+                <prof> </prof> 
+            </cr> 
+            <cr>  
+                <cours> </cours> 
+                <prof> </prof> 
+            </cr>   
+        </mardi>                             
+        <mercredi>                                                        
+            <cr>              
+                <cours>              Anglais              </cours>  
+                <prof> Haro </prof> 
+            </cr> 
+            <cr> 
+                <cours> Interopérabilité </cours> 
+                <prof>  </prof> 
+            </cr>                                           
+            <cr>                            
+                <cours>              Maths              </cours> 
+                <prof> Régnier </prof> 
+            </cr>                                           
+            <cr>                            
+                <cours>              Algorithmique              </cours> 
+                <prof> Pecatte</prof> 
+            </cr>                             
+        </mercredi>                                          
+        <jeudi>                                                        
+            <cr>              
+                <cours>              Systèmes              répartis              </cours> 
+                <prof> Trouilhet </prof> 
+            </cr>                                           
+            <cr>              
+                <cours>              Chinois</cours> 
+                <prof> Marcelle </prof> 
+            </cr> 
+            <cr> 
+                <cours> Communication </cours> 
+                <prof> Bourdin </prof> 
+            </cr>                                           
+            <cr>              
+                <cours>              Droit              </cours> 
+                <prof> Noël </prof> 
+            </cr>   
+        </jeudi>               
+    </semaine>              
+</edt> 
